@@ -1,0 +1,21 @@
+package scanner;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		
+		Scanner inp = new Scanner(System.in); 
+		byte n, i, kelipatan = 3;
+		  System.out.print(" Masukkan Data : ");
+		  n = inp.nextByte();
+		
+		for (i=1; i <= n; i++){
+		  System.out.print(" "+ kelipatan);
+		  kelipatan += 3;
+		  }
+		  System.out.println();
+
+		  }
+	}
